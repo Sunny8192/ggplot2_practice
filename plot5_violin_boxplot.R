@@ -3,9 +3,13 @@ library(ggprism)
 
 
 # 1. load the data
-df_raw = read.csv("/media/windows11/PhD_PQS/ggplot_tutorial/mouse_drug.csv")
-df_stat = read.csv("/media/windows11/PhD_PQS/ggplot_tutorial/mouse_drug_stat.csv")
-save_path = "/media/windows11/PhD_PQS/ggplot_tutorial"
+# df_raw = read.csv("/media/windows11/PhD_PQS/ggplot_tutorial/mouse_drug.csv")
+# df_stat = read.csv("/media/windows11/PhD_PQS/ggplot_tutorial/mouse_drug_stat.csv")
+# save_path = "/media/windows11/PhD_PQS/ggplot_tutorial"
+
+df_raw = read.csv("F:\\PhD_PQS\\ggplot_tutorial\\mouse_drug.csv")
+df_stat = read.csv("F:\\PhD_PQS\\ggplot_tutorial\\mouse_drug_stat.csv")
+save_path = "F:\\PhD_PQS\\ggplot_tutorial"
 
 # 2. violin plot
 df_raw_day1 = df_raw[which(df_raw$day == 1),]

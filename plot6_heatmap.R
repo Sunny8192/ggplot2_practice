@@ -2,8 +2,11 @@ library(ggplot2)
 
 
 # 1. load the data
-df_heatmap = read.csv("/media/windows11/PhD_PQS/ggplot_tutorial/gene_interaction.csv")
-save_path = "/media/windows11/PhD_PQS/ggplot_tutorial"
+# df_heatmap = read.csv("/media/windows11/PhD_PQS/ggplot_tutorial/gene_interaction.csv")
+# save_path = "/media/windows11/PhD_PQS/ggplot_tutorial"
+
+df_heatmap = read.csv("F:\\PhD_PQS\\ggplot_tutorial\\gene_interaction.csv")
+save_path = "F:\\PhD_PQS\\ggplot_tutorial"
 
 # 2. heatmap
 gene_heatmap = ggplot(df_heatmap, aes(x=gene_A, y=gene_B)) + 
