@@ -1,5 +1,4 @@
 library(ggplot2)
-library(ggprism)
 
 
 # 1. load the data

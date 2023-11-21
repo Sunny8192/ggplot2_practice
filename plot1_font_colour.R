@@ -39,7 +39,7 @@ barplot_day1 = ggplot(df_stat_day1, aes(x=group, y=weight_mean)) +
         axis.ticks.length=unit(0.25, units="cm"),
 
         legend.position="bottom",
-        legend.title=element_text(color="black", size=12, face="bold", family="Impact"),
+        legend.title=element_text(color="black", size=12, face="bold", family="mono"),
         legend.text=element_text(color="black", size=12, face="bold.italic", family="Times New Roman")
     ) + 
     scale_fill_manual("Test group", values=c("red", "blue")) + 
